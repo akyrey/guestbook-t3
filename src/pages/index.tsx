@@ -68,7 +68,7 @@ const GuestbookEntries = () => {
         return (
           <div key={i}>
             <p>{entry.message}</p>
-            <span>- {entry.name}</span>
+            <span className="text-sm">- {entry.name}</span>
           </div>
         );
       })}
